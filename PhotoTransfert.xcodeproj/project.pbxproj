@@ -40,6 +40,8 @@
 		5A1643AA290BFC3F009DA2A8 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		5A1643AC290BFC96009DA2A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A1643AE290BFCAC009DA2A8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5A4FE87F290C3A2200C0366C /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		5A4FE880290C3A2B00C0366C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		5A83F746290C130C00841E11 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				5A164399290BF3CF009DA2A8 /* Info.plist */,
-				5A164395290BF37F009DA2A8 /* Debug */,
-				5A164396290BF385009DA2A8 /* Release */,
+				5A4FE87D290C3A0D00C0366C /* Debug */,
+				5A4FE87E290C3A1700C0366C /* Release */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -143,20 +145,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		5A164395290BF37F009DA2A8 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
-		5A164396290BF385009DA2A8 /* Release */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Release;
-			sourceTree = "<group>";
-		};
 		5A16439A290BF4E8009DA2A8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +168,22 @@
 				5A1643AA290BFC3F009DA2A8 /* Photo.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5A4FE87D290C3A0D00C0366C /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FE87F290C3A2200C0366C /* Debug.xcconfig */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		5A4FE87E290C3A1700C0366C /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FE880290C3A2B00C0366C /* Release.xcconfig */,
+			);
+			path = Release;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
