@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A16437C290BEC96009DA2A8 /* PhotoTransfertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16437B290BEC96009DA2A8 /* PhotoTransfertApp.swift */; };
+		5A16437E290BEC96009DA2A8 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16437D290BEC96009DA2A8 /* PhotoListView.swift */; };
+		5A164380290BEC97009DA2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A16437F290BEC97009DA2A8 /* Assets.xcassets */; };
+		5A164383290BEC97009DA2A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A164382290BEC97009DA2A8 /* Preview Assets.xcassets */; };
+		5A164391290BF342009DA2A8 /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A164390290BF342009DA2A8 /* PhotoListViewModel.swift */; };
+		5A16439C290BF4F2009DA2A8 /* Enviroments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16439B290BF4F2009DA2A8 /* Enviroments.swift */; };
+		5A16439F290BF8A4009DA2A8 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 5A16439E290BF8A4009DA2A8 /* GoogleSignIn */; };
+		5A1643A1290BF8A4009DA2A8 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A1643A0290BF8A4009DA2A8 /* GoogleSignInSwift */; };
+		5A1643A3290BFB24009DA2A8 /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643A2290BFB24009DA2A8 /* GoogleSignInAuthenticator.swift */; };
+		5A1643A5290BFB61009DA2A8 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643A4290BFB61009DA2A8 /* AuthenticationViewModel.swift */; };
+		5A1643A7290BFBE7009DA2A8 /* PhotoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643A6290BFBE7009DA2A8 /* PhotoLoader.swift */; };
+		5A1643AB290BFC3F009DA2A8 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643AA290BFC3F009DA2A8 /* Photo.swift */; };
+		5A1643AD290BFC96009DA2A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643AC290BFC96009DA2A8 /* ContentView.swift */; };
+		5A1643AF290BFCAC009DA2A8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643AE290BFCAC009DA2A8 /* SignInView.swift */; };
+		5A83F747290C130C00841E11 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A83F746290C130C00841E11 /* PhotoViewModel.swift */; };
+		5A83F74D290C165200841E11 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5A83F74C290C165200841E11 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A164378290BEC96009DA2A8 /* PhotoTransfert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTransfert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16437B290BEC96009DA2A8 /* PhotoTransfertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTransfertApp.swift; sourceTree = "<group>"; };
+		5A16437D290BEC96009DA2A8 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		5A16437F290BEC97009DA2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A164382290BEC97009DA2A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A164390290BF342009DA2A8 /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		5A164399290BF3CF009DA2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16439B290BF4F2009DA2A8 /* Enviroments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroments.swift; sourceTree = "<group>"; };
+		5A1643A2290BFB24009DA2A8 /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
+		5A1643A4290BFB61009DA2A8 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		5A1643A6290BFBE7009DA2A8 /* PhotoLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLoader.swift; sourceTree = "<group>"; };
+		5A1643AA290BFC3F009DA2A8 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5A1643AC290BFC96009DA2A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A1643AE290BFCAC009DA2A8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5A83F746290C130C00841E11 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A164375290BEC96009DA2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A83F74D290C165200841E11 /* SDWebImageSwiftUI in Frameworks */,
+				5A16439F290BF8A4009DA2A8 /* GoogleSignIn in Frameworks */,
+				5A1643A1290BF8A4009DA2A8 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A16436F290BEC96009DA2A8 = {
+			isa = PBXGroup;
+			children = (
+				5A16437A290BEC96009DA2A8 /* PhotoTransfert */,
+				5A164379290BEC96009DA2A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A164379290BEC96009DA2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A164378290BEC96009DA2A8 /* PhotoTransfert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A16437A290BEC96009DA2A8 /* PhotoTransfert */ = {
+			isa = PBXGroup;
+			children = (
+				5A164389290BEC9B009DA2A8 /* Configurations */,
+				5A16438B290BECA6009DA2A8 /* App */,
+				5A1643A9290BFC31009DA2A8 /* Models */,
+				5A16438F290BF324009DA2A8 /* ViewModels */,
+				5A16438A290BECA0009DA2A8 /* Views */,
+				5A1643A8290BFBEA009DA2A8 /* Services */,
+				5A16439A290BF4E8009DA2A8 /* Utilities */,
+				5A16438C290BECAD009DA2A8 /* Resources */,
+				5A164381290BEC97009DA2A8 /* Preview Content */,
+			);
+			path = PhotoTransfert;
+			sourceTree = "<group>";
+		};
+		5A164381290BEC97009DA2A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A164382290BEC97009DA2A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A164389290BEC9B009DA2A8 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				5A164399290BF3CF009DA2A8 /* Info.plist */,
+				5A164395290BF37F009DA2A8 /* Debug */,
+				5A164396290BF385009DA2A8 /* Release */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		5A16438A290BECA0009DA2A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A1643AC290BFC96009DA2A8 /* ContentView.swift */,
+				5A16437D290BEC96009DA2A8 /* PhotoListView.swift */,
+				5A1643AE290BFCAC009DA2A8 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A16438B290BECA6009DA2A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5A16437B290BEC96009DA2A8 /* PhotoTransfertApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5A16438C290BECAD009DA2A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A16437F290BEC97009DA2A8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A16438F290BF324009DA2A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A164390290BF342009DA2A8 /* PhotoListViewModel.swift */,
+				5A83F746290C130C00841E11 /* PhotoViewModel.swift */,
+				5A1643A4290BFB61009DA2A8 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A164395290BF37F009DA2A8 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		5A164396290BF385009DA2A8 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		5A16439A290BF4E8009DA2A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5A16439B290BF4F2009DA2A8 /* Enviroments.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5A1643A8290BFBEA009DA2A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5A1643A2290BFB24009DA2A8 /* GoogleSignInAuthenticator.swift */,
+				5A1643A6290BFBE7009DA2A8 /* PhotoLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5A1643A9290BFC31009DA2A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A1643AA290BFC3F009DA2A8 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A164377290BEC96009DA2A8 /* PhotoTransfert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A164386290BEC97009DA2A8 /* Build configuration list for PBXNativeTarget "PhotoTransfert" */;
+			buildPhases = (
+				5A164374290BEC96009DA2A8 /* Sources */,
+				5A164375290BEC96009DA2A8 /* Frameworks */,
+				5A164376290BEC96009DA2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTransfert;
+			packageProductDependencies = (
+				5A16439E290BF8A4009DA2A8 /* GoogleSignIn */,
+				5A1643A0290BF8A4009DA2A8 /* GoogleSignInSwift */,
+				5A83F74C290C165200841E11 /* SDWebImageSwiftUI */,
+			);
+			productName = PhotoTransfert;
+			productReference = 5A164378290BEC96009DA2A8 /* PhotoTransfert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A164370290BEC96009DA2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5A164377290BEC96009DA2A8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A164373290BEC96009DA2A8 /* Build configuration list for PBXProject "PhotoTransfert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A16436F290BEC96009DA2A8;
+			packageReferences = (
+				5A16439D290BF8A4009DA2A8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				5A83F74B290C165200841E11 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 5A164379290BEC96009DA2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A164377290BEC96009DA2A8 /* PhotoTransfert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A164376290BEC96009DA2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A164383290BEC97009DA2A8 /* Preview Assets.xcassets in Resources */,
+				5A164380290BEC97009DA2A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A164374290BEC96009DA2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1643A5290BFB61009DA2A8 /* AuthenticationViewModel.swift in Sources */,
+				5A83F747290C130C00841E11 /* PhotoViewModel.swift in Sources */,
+				5A1643A3290BFB24009DA2A8 /* GoogleSignInAuthenticator.swift in Sources */,
+				5A1643A7290BFBE7009DA2A8 /* PhotoLoader.swift in Sources */,
+				5A1643AB290BFC3F009DA2A8 /* Photo.swift in Sources */,
+				5A1643AF290BFCAC009DA2A8 /* SignInView.swift in Sources */,
+				5A16437E290BEC96009DA2A8 /* PhotoListView.swift in Sources */,
+				5A1643AD290BFC96009DA2A8 /* ContentView.swift in Sources */,
+				5A164391290BF342009DA2A8 /* PhotoListViewModel.swift in Sources */,
+				5A16439C290BF4F2009DA2A8 /* Enviroments.swift in Sources */,
+				5A16437C290BEC96009DA2A8 /* PhotoTransfertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A164384290BEC97009DA2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A164385290BEC97009DA2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A164387290BEC97009DA2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoTransfert/Preview Content\"";
+				DEVELOPMENT_TEAM = LAT58Z69VZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoTransfert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.aiello.PhotoTransfert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A164388290BEC97009DA2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoTransfert/Preview Content\"";
+				DEVELOPMENT_TEAM = LAT58Z69VZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoTransfert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.aiello.PhotoTransfert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A164373290BEC96009DA2A8 /* Build configuration list for PBXProject "PhotoTransfert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A164384290BEC97009DA2A8 /* Debug */,
+				5A164385290BEC97009DA2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A164386290BEC97009DA2A8 /* Build configuration list for PBXNativeTarget "PhotoTransfert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A164387290BEC97009DA2A8 /* Debug */,
+				5A164388290BEC97009DA2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A16439D290BF8A4009DA2A8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		5A83F74B290C165200841E11 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A16439E290BF8A4009DA2A8 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A16439D290BF8A4009DA2A8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		5A1643A0290BF8A4009DA2A8 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A16439D290BF8A4009DA2A8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		5A83F74C290C165200841E11 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A83F74B290C165200841E11 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A164370290BEC96009DA2A8 /* Project object */;
+}
